@@ -31,11 +31,35 @@ img {
     max-width: 100%;
 }
 
+li {
+  position: relative;
+  padding-left: 1.2em;
+  list-style: none;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+
 p {
     font-size: 1.1rem;
     margin-bottom: 1rem;
     margin-left: 0;
 }
+
+ul {
+    margin-bottom: 1rem;
+    list-style-position: inside;
+}
+
+ul.tight li {
+    margin-bottom: 0;
+}
+
 
 .back-arrow {
     grid-row: 1 / 2;
