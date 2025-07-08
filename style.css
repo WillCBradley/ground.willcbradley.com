@@ -163,6 +163,33 @@ h2 {
     border-color: #679f69;
 }
 
+.card-more {
+    font-size: 1.2rem;
+    text-align: left;
+    flex: 1;
+    border: 2px solid #679f69;
+    color: #679f69;
+    border-radius: 5px;
+    padding : 2.4rem 2rem;
+    background: linear-gradient(to left, #fff 50%, #679f69 50%) right;
+    background-size: 200%;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.23, 1);
+    margin-top: 2rem;
+}
+
+.card-more:hover {
+    color: #fff;
+    border-color: #679f69;
+    background-position: left;
+    text-decoration: none;
+}
+
+.card-more:active {
+    background-color: #679f69;
+    color: #fff;
+    border-color: #679f69;
+}
+
 .card-grey {
     font-size: 1.2rem;
     text-align: left;
